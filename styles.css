@@ -19,10 +19,11 @@ body {
   font-size: 16px;
   color: #3c3c3c;
   background: #f4f4f4;
+  line-height: 25px;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px 30px;
 }
