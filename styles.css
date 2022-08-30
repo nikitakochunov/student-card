@@ -34,7 +34,7 @@ h1 {
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   border: 1px solid black;
   padding: 20px 40px 30px;
   border-radius: 15px;
@@ -119,7 +119,6 @@ table {
 }
 
 .goals-list li {
-  /* margin-bottom: 10px; */
   padding: 15px 10px;
 }
 
@@ -130,4 +129,22 @@ table {
 
 .goals-list li:last-child {
   margin-bottom: 0;
+}
+
+/* section.study-time */
+
+.study-time {
+  background-color: rgba(230, 230, 50, 0.2);
+}
+
+.study-time-table td {
+  padding-bottom: 8px;
+}
+
+.study-time-table td:first-child {
+  padding-right: 80px;
+}
+
+.study-time-table tr:last-child td {
+  padding-bottom: 0;
 }
