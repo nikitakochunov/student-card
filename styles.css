@@ -9,6 +9,11 @@
   border: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: 'Roboto';
   font-size: 16px;
@@ -160,7 +165,6 @@ table {
 /* section.my-courses */
 
 .my-courses {
-  /* background-color: rgba(200, 200, 200, 0.2); */
   background-color: rgba(250, 150, 0, 0.2);
 }
 
@@ -213,4 +217,27 @@ table {
   .my-courses-table td {
     padding: 10px 3px;
   }
+}
+
+/* section.contacts */
+
+.contacts {
+  background-color: rgba(200, 200, 200, 0.2);
+  margin-bottom: 0;
+}
+
+.contacts-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts-list li {
+  text-align: center;
+}
+
+.contacts-list li img {
+  display: block;
+  width: 60px;
+  margin: 0 auto 10px;
 }
