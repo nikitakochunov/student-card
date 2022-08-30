@@ -139,15 +139,22 @@ table {
 }
 
 .study-time-table td {
-  padding-bottom: 8px;
+  padding: 10px;
 }
 
 .study-time-table td:first-child {
   padding-right: 80px;
 }
 
-.study-time-table tr:last-child td {
-  padding-bottom: 0;
+.study-time-table tr:nth-child(odd) td {
+  border-radius: 15px;
+  background-color: rgba(230, 230, 50, 0.25);
+}
+
+@media (max-width: 650px) {
+  .study-time-table td:first-child {
+    padding-right: 50px;
+  }
 }
 
 /* section.my-courses */
