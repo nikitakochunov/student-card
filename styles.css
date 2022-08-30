@@ -13,6 +13,7 @@ body {
   font-family: 'Roboto';
   font-size: 16px;
   color: #3c3c3c;
+  background: #f4f4f4;
 }
 
 .container {
@@ -147,4 +148,42 @@ table {
 
 .study-time-table tr:last-child td {
   padding-bottom: 0;
+}
+
+/* section.my-courses */
+
+.my-courses {
+  /* background-color: rgba(200, 200, 200, 0.2); */
+  background-color: rgba(250, 150, 0, 0.2);
+}
+
+.my-courses-table {
+  text-align: center;
+}
+
+.my-courses-table th {
+  padding: 0px 50px 20px;
+}
+
+.my-courses-table td {
+  padding: 10px 50px;
+}
+
+.my-courses-table td:nth-child(odd) {
+  background-color: rgba(250, 150, 0, 0.25);
+  border-radius: 15px;
+}
+
+.my-courses-table tr:first-child {
+  position: relative;
+}
+
+.my-courses .hr {
+  padding: 0 !important;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #3a3a3a !important;
 }
